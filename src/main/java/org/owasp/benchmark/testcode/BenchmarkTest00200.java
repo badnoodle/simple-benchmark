@@ -70,7 +70,7 @@ public class BenchmarkTest00200 extends HttpServlet {
     }
 
     public void useApple(Apple apple) {
-        apple.count += 1;
+        apple.count += 2;
     }
 
     public Integer useObj(Integer price) {
