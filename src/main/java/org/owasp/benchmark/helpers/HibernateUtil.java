@@ -231,7 +231,7 @@ public class HibernateUtil {
         tx = classicSession.beginTransaction();
         User user = new User();
         user.setName("User1");
-        user.setPassword("asdfsd");
+        //user.setPassword("asdfsd");
         user.setHobbyId(1);
         classicSession.save(user);
         classicSession.flush();
